@@ -1,0 +1,80 @@
+html{
+	width:100%;
+	height:100%;
+}
+.logo{	
+	margin: 10px 20px 10px;
+	float: right;	
+}
+#cabezera{
+	padding:0;
+	width: auto;
+	height:160px;
+	overflow: hidden;
+	position: relative;	
+	background:url(../imagenes/cabezera.png) repeat-x;
+}
+#navMenu {
+	margin:0;
+	padding: 0;
+	width:1010px;
+}
+
+#navMenu ul{
+	margin: 0;
+	padding: 0;	
+	line-height:30px;
+}
+
+#navMenu li{
+	margin: 0;
+	padding: 0;	
+	list-style: none;
+	float:left;
+	position:relative;
+	background:url(../imagenes/menuitem.png) repeat-x;
+}
+
+#navMenu ul li a {
+	text-align:center;
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	text-decoration:none;
+	height:30px;
+	width:200px;
+	display:block;
+	color:#FFFFFF;
+	border:1px solid #FFFFFF;
+	text-shadow:1px 1px 1px #000;
+}
+
+#navMenu ul ul{
+	position:absolute;
+	visibility:hidden;
+	top:32px;
+}
+
+#navMenu ul li:hover ul{
+	visibility:visible;
+	
+}
+/***********************************************************************************************************/
+
+#navMenu li:hover{
+	background:url(../imagenes/sobremenuitem.png) repeat-x;
+}
+
+#navMenu ul li:hover ul li a:hover{
+	background:url(../imagenes/sobremenuitem.png) repeat-x;
+	color: #000000;
+}
+
+#navMenu a:hover{
+	color:#000000;
+}
+
+.clearFloat{
+	clear:both;
+	margin:0;
+	padding:0;
+}
